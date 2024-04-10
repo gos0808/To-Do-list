@@ -16,8 +16,11 @@ Welcome to the To-Do List Project! This interactive application is designed to h
 - To delete a task, click the 'Delete' icon next to the task.
 
 # Contact
-Olga: gos08.08.23@gmail.com\
-Project link: https://github.com/gos0808/Grocery-list 
+Olga: gos08.08.23@gmail.com 
+
+Project link: \
+https://github.com/gos0808/Grocery-list \
+https://checkklist.netlify.app
 
 # Getting Started with Create React App
 
