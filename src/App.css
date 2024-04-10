@@ -1,38 +1,95 @@
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track { 
+  background: #ffffff; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #FFE8EA; 
+  border-radius: 4px;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  background-image: url('./images/bottom7.jpg');
+  background-size: cover;
   min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #436073;
+}
+
+.makingTask input {
+ width: 300px;
+ height: 30px;
+ font-size: 18px;
+ border: 1px solid #85B8CB;
+ align-items: center;
+}
+
+.makingTask input::placeholder {
+  color: #50636f;
+}
+
+.makingTask input:focus {
+  outline: 0.8px solid #577B92;
+}
+
+.makingTask button {
+  border: none;
+  padding: 8px 25px;
+  margin: 6px 8px;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: #577B92;
+  color: white;
+
+ }
+
+ .makingTask button:hover {
+  filter: brightness(110%);
+ }
+
+ .makingTask ul {
+  list-style-type: none;
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: relative;
+ }
+
+.makingTask li {
+  background-color: #FAF9F6;
+  font-size: 18px;
+  color: #436073;
+  padding: 5px;
+  margin: 5px;
+  width: 370px;
+  word-wrap: break-word;
+ }
+
+ .makingTask li.done {
+text-decoration: line-through 2px #aeaeae;
+color: #aeaeae;
+ } 
+
+.icon {
+position: absolute;
+left: 90%; 
+color:#aeaeae;
+
 }
 
-.App-link {
-  color: #61dafb;
+.icon:hover {
+ filter: brightness(105%);
+ transform:scale(1.07);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
