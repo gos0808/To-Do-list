@@ -1,3 +1,24 @@
+# About the To-Do List project
+
+Welcome to the To-Do List Project! This interactive application is designed to help you efficiently organize and prioritize your daily tasks. The To-Do List allows users to effortlessly add and manage tasks with a simple click. Whether you're planning your day or tracking your responsibilities, this tool is built to enhance productivity and simplify your life. 
+
+# Built With: 
+<div >
+  <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
+    <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
+</div>
+
+# Usage:
+- To add a task, enter the task in the input box and click 'Add'.
+- To mark a task as complete, click on the task.
+- To delete a task, click the 'Delete' icon next to the task.
+
+# Contact
+Olga: gos08.08.23@gmail.com\
+Project link: https://github.com/gos0808/Grocery-list 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
