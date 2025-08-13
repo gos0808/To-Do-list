@@ -19,7 +19,7 @@ export class ToDo extends Component {
             listArray.push(input);
             this.setState({ toDoList: listArray, userInput: '' });
         } else {
-            alert('Please, enter what you wabt to do');
+            alert('Please, enter what you want to do');
         }
     }
 

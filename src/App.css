@@ -41,7 +41,7 @@
 
 .makingTask button {
   border: none;
-  padding: 8px 25px;
+  padding: 8px 27px;
   margin: 6px 8px;
   font-size: 18px;
   border-radius: 5px;
@@ -69,7 +69,7 @@
   color: #436073;
   padding: 5px;
   margin: 5px;
-  width: 370px;
+  width: 97%;
   word-wrap: break-word;
  }
 
